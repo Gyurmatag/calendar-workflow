@@ -6,12 +6,6 @@ compatibility_flags = ["nodejs_compat"]
 [observability]
 enabled = true
 
-[vars]
-GOOGLE_CLIENT_ID = "<YOUR_GOOGLE_CLIENT_ID>"
-GOOGLE_CLIENT_SECRET = "<YOUR_GOOGLE_CLIENT_SECRET>"
-GOOGLE_REFRESH_TOKEN = "<YOUR_GOOGLE_REFRESH_TOKEN>"
-RESEND_API_KEY = "<YOUR_RESEND_API_KEY>"
-
 [[workflows]]
 name = "main-workflow"
 binding = "MAIN_WORKFLOW"
