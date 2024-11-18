@@ -13,11 +13,11 @@ export const SummaryEmail = ({ meetingSummary = "Your AI-generated meeting summa
 				<Body className="bg-white font-sans">
 					<Container className="mx-auto px-6 py-8 max-w-2xl">
 						<Text className="text-3xl font-bold text-center text-black mb-6">
-							Your meetings summary for the week
+							Your meetings summary for the day
 						</Text>
 						<Text className="text-lg text-gray-700 mb-4">Hello,</Text>
 						<Text className="text-lg text-gray-700 mb-4">
-							Here's a summary of your meetings for this week:
+							Here's a summary of your meetings for this day:
 						</Text>
 						<Section className="bg-gray-100 rounded-lg p-6 mb-6">
 							<Text className="text-base text-gray-800 whitespace-pre-wrap">
