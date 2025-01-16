@@ -133,6 +133,7 @@ const startWorkflow = async (env: Env) => {
 
 export default {
 	async scheduled(
+		req: Request,
 		env: Env,
 		ctx: ExecutionContext,
 	) {
